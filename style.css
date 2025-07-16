@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Love Ya Like A Sister', cursive;
+  background: #000;
+  color: white;
+}
+
+.happy__birthday {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+}
+
+.happy__birthday h1 {
+  font-size: 2.5rem;
+  color: #f06;
+  margin: 0.5rem 0;
+}
+
+.happy__birthday p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.happy__birthday h2 {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+.cake {
+  width: 120px;
+  margin-top: 20px;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#start-btn {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  background: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background 0.3s;
+}
+
+#start-btn:hover {
+  background: #e91e63;
+}
